@@ -15,7 +15,9 @@ export function MapScreen() {
       <MapView
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={styles.map}
-        mapType="satelliteFlyover"
+        mapType='hybrid'
+        showsMyLocationButton
+        showsUserLocation
         region={{
           latitude: 48.884455,
           longitude: 38.52491,
