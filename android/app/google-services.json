@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "693826860872",
+    "firebase_url": "https://evolunteer-2543f-default-rtdb.firebaseio.com",
+    "project_id": "evolunteer-2543f",
+    "storage_bucket": "evolunteer-2543f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693826860872:android:435b9e7d91c27b2e45a57d",
+        "android_client_info": {
+          "package_name": "com.evolunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693826860872-5uoohhoq8rviluj913oqj5vveng68ak7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evolunteer",
+            "certificate_hash": "a41a46732ee3034596996815e82485ce81b07e1d"
+          }
+        },
+        {
+          "client_id": "693826860872-gs37ba9mt6csmlbtb0n61g8b3r47f22j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2xGken23WEA4qF4KhmRNj80oT3jqjg4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693826860872-gs37ba9mt6csmlbtb0n61g8b3r47f22j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
