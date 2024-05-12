@@ -43,7 +43,6 @@ export default function useDataHook(): UseDataHookResult {
   }
 
   async function joinPressHandler(props: string) {
-    console.log(modalData);
     if (props) {
       if (modalData?.volunteers[id]) {
         await database().ref(`/events/${props}/volunteers/${id}`).set(null);
