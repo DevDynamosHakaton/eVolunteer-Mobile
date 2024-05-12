@@ -4,7 +4,6 @@ import {DeviceSize, FontSize} from '../../constants/Global';
 export const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
     width: '90%',
     alignSelf: 'center',
@@ -13,10 +12,13 @@ export const styles = StyleSheet.create({
     marginBottom: 12,
     borderRadius: 12,
     paddingHorizontal: '3%',
+    justifyContent: 'space-between',
   },
   lineContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'flex-start',
+    width: '60%',
   },
   firstText: {
     fontSize: FontSize.size22,
@@ -30,11 +32,11 @@ export const styles = StyleSheet.create({
   },
   nameText: {
     fontSize: FontSize.size18,
-    width: '90%',
+    width: '100%',
   },
   locationText: {
     fontSize: FontSize.size16,
-    width: '90%',
+    width: '80%',
     color: '#000000c7',
   },
   rightPart: {
